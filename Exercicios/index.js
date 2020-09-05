@@ -39,7 +39,7 @@ for (var i = 1; i <= 20; i++)
         console.log(i + ' é IMPAR!')
     }
 
-// para imprimir a palavra "funcionou" quando x estiver entre 5 e 7
+// para imprimir a palavra "funcionou" quando x for 5 ou 7
 console.log('')
 
 
@@ -59,6 +59,6 @@ console.log('')
 for (var i = 0; i < 10; i++)
     if (i >= 5) {
         if (i <= 7) {
-            console.log('FUNCIONOU')
+            console.log(i + 'FUNCIONOU')
         }
     }
